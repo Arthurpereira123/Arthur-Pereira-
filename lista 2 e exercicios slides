@@ -1,0 +1,155 @@
+Algoritmo "questao 1, lista 2"
+
+// Descri��o   : algoritmo para saber se o numero � par ou �mpar
+// Autor(a)    : Arthur Pereira de Souza
+// Data atual  : 09/03/2019
+Var
+     n1, resto: inteiro
+
+
+Inicio
+     escreva (n1)
+     leia (n1)
+     resto <- n1 % 2
+     se (resto = 0) entao
+     escreva ("numero par")
+     senao
+       escreva ("numero impar")
+     fimse
+     se (resto >= 0) entao
+        escreva ("positivo")
+     senao
+        escreva ("negativo")
+     fimse
+Fimalgoritmo
+
+
+
+
+Algoritmo "questao 2 da segunda lista"
+// 
+//  
+// Descri��o   : Algoritmo para classificar um triangulo
+// Autor(a)    : Arthur Pereira de Souza
+// Data atual  : 09/03/2019
+Var
+   L1, L2, L3: real
+
+
+Inicio
+    escreva (L1, L2, L3)
+    leia (L1, L2, L3)
+    se <- L1 + L2 > L3 entao
+    escreva ("triangulo existe")
+    senao
+      escreva ("triangulo nao existe"
+    fimse
+    se <- L2 + L3 > L1 entao
+    escreva ("triangulo existe")
+    senao
+      escreva ("triangulo nao existe")
+    fimse
+    se <- L3 + L1 > L2 entao
+      escreva ("triangulo existe")
+    senao
+      escreva ("triangulo nao existe)
+    fimse
+    se <- L1 = L2 = L3 entao
+      escreva ("triangulo equilatero")
+    se <- L1 + L2 != L3 entao
+      escreva ("triangulo isosceles")
+    se <- L1 != L2 != L3 entao
+      escreva ("triangulo escaleno")
+    fimse
+    
+Fimalgoritmo
+
+
+
+
+Algoritmo "questao 3 da lista 2"
+// 
+//  
+// Descri��o   : Algoritmo para imprimir a maior nota e a media
+// Autor(a)    : Arthur Pereira de Souza
+// Data atual  : 09/03/2019
+Var
+    N1, N2, N3: real,
+
+
+Inicio
+   escreva (N1, N2, N3)
+   leia (N1, N2, N3)
+   se N1 > N2 e N3 entao
+    escreva ("imprimir N1")
+   se N2 > N1 e N3 entao
+    escreva ("imprimir N2")
+   se N3 > N1 e N2 entao
+    escreva ("imprimir N3")
+   fimse
+   med <- N1 + N2 + N3 % 3
+    escreva ("med")
+   fimse
+   
+Fimalgoritmo
+
+
+
+
+
+
+Algoritmo "questao 4 da lista 2"
+// 
+//  
+// Descri��o   : Algoritmo para colocar em ordem crescente ou decrescente
+// Autor(a)    : Arthur Pereira de Souza
+// Data atual  : 09/03/2019
+Var
+    N1, N2, N3: real,
+    crescente: caractere
+    decrescente: caractere
+
+
+Inicio
+     escreva (N1, N2, N3)
+     leia ( N1, N2, N3)
+     se N1 > N2 > N3 entao
+       escreva ("ordem crescente")
+     se N1 < N2 < N3 entao
+       escreva ("ordem decrescente")
+     fimse
+     
+Fimalgoritmo
+
+
+
+
+
+Algoritmo "questao 5 da lista 2"
+// 
+//  
+// Descri��o   : Algoritmo para fazer a soma, media ou a multiplica�ao
+// Autor(a)    : Arthur Pereira de Souza
+// Data atual  : 09/03/2019
+Var
+   N1, N2, N3: inteiro
+   soma: inteiro
+   media: inteiro
+   mult: real
+
+
+Inicio
+    escreva (N1, N2, N3)
+    leia (N1, N2, N3)
+    se quer somar entao
+    soma <- N1 + N2 + N3
+      escreva ("soma")
+    se  quer saber a media entao
+    media <- (N1 + N2 + N3) /3
+      escreva ("media")
+    se  quer multiplicar entao
+    mult <- N1 * N2 * N3
+      escreva ("mult")
+    fimse
+
+Fimalgoritmo
