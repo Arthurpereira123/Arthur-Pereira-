@@ -1,0 +1,24 @@
+Algoritmo "questao 1, lista 2"
+
+// Descri��o   : algoritmo para saber se o numero � par ou �mpar
+// Autor(a)    : Arthur Pereira de Souza
+// Data atual  : 09/03/2019
+Var
+     n1, resto: inteiro
+
+
+Inicio
+     escreva (n1)
+     leia (n1)
+     resto <- n1 % 2
+     se (resto = 0) entao
+     escreva ("numero par")
+     senao
+       escreva ("numero impar")
+     fimse
+     se (resto >= 0) entao
+        escreva ("positivo")
+     senao
+        escreva ("negativo")
+     fimse
+Fimalgoritmo
