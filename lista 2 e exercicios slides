@@ -153,3 +153,75 @@ Inicio
     fimse
 
 Fimalgoritmo
+
+
+Algoritmo "questao D final dos slides"
+// 
+//  
+// Descri��o   : Algoritmo para saber a altura e o peso de uma pessoa
+// Autor(a)    : Arthur Pereira de Suza
+// Data atual  : 11/03/2019
+Var
+    altura, peso: real
+
+
+Inicio
+     escreva ("altura, peso")
+     leia (altura, peso)
+     se (altura <= 1.20) e (peso <= 60) entao
+        escreva ("A")
+     fimse
+     se (altura <= 1.20) e (peso > 60) e (peso <= 90) entao
+        escreva ("D")
+     fimse
+     se (altura <= 1.20) e (peso > 90) entao
+         escreva ("G")
+     fimse
+     se (altura > 1.20) e (altura <= 1.70) e (peso <= 60) entao
+         escreva ("B")
+     fimse
+     se (altura > 1.20) e (altura <= 1.70) e (peso > 60) e (peso <= 90) entao
+         escreva ("E")
+     fimse
+     se (altura > 1.20) e (altura <= 1.70) e (peso > 90) entao
+         escreva ("H")
+     fimse
+     se (altura > 1.70) e (peso <= 60) entao
+         escreva ("C")
+     fimse
+     se (altura > 1.70) e (peso > 60) e (peso <= 90) entao
+         escreva ("F")
+     fimse
+     se (altura > 1.70) e (peso > 90) entao
+         escreva ("I")
+     fimse
+
+
+Fimalgoritmo
+
+
+Algoritmo "questao do desconto dos slides"
+// 
+//  
+// Descri��o   : Algoritmo para saber o desconto a ser aplicado
+// Autor(a)    : Arthur Pereira de Souza
+// Data atual  : 11/03/2019
+Var
+    opcao: caractere
+
+
+Inicio
+    escolha ("escolha a opcao de desconto (1, 2, 3 ou 4):")
+    leia (opcao)
+    caso ("caractere = 1")
+      escreva ("dar desconto de 20%)
+    caso ("caractere = 2")
+      escreva ("dar desconto de 15%)
+    caso ("caractere = 3")
+      escreva ("dar desconto de 10%)
+    caso ("caractere = 4")
+       escreva ("dar desconto de 5%)
+
+fimescolha
+
+Fimalgoritmo
